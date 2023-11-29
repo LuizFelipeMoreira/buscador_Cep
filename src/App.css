@@ -45,3 +45,28 @@
   outline: none;
   margin-right: 8px;
 }
+
+.buttonSearch {
+  color: #fff;
+  background: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.buttonSearch:hover {
+  transform: scale(1.2);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  width: 500px;
+  border-radius: 8px;
+}
